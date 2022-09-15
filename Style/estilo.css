@@ -45,6 +45,10 @@ p{
     color: white;
     margin: 10px;
 }
+.menu li:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+}
 
 
 /* Fin estilo header */
