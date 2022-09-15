@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1f1e1e;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Inicio estilo header */
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+    }
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    
+    padding: 10px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+
+/* Fin estilo header */
+
+main{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.combos{
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.combos img{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.destaca img{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.texto-combo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-combo a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+.texto-somos a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+/*Inicio Estilo del footer*/
+.whatsapp{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.whatsapp:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease
+}
+.redes img{
+    padding:  10px 5px;
+    border-radius: 50%;
+}
+.redes img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+.bg-footer{
+    background-color: black;
+    padding: 10px;
+}
+
+/*Fin Estilo del footer*/
